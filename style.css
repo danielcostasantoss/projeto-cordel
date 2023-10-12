@@ -13,19 +13,21 @@ html, body{
     background-color: black;
     background-size: cover;
     margin: 0px;
-    min-height: 100vh;
+    min-width: 400px;
+    width: auto;
 }
 
 header{
     text-align: center;
     background-color: black;
-    max-width: auto;
+    width: auto;
+    min-width: 500px;
     color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
 }
 
 header > h1{
-    font-size: 120px;
+    font-size: 10vw;
     font-weight: bold;
     font-family: 'Dela Gothic One', sans-serif;
     font-variant: small-caps;
@@ -33,7 +35,7 @@ header > h1{
 }
 
 header > h2{
-    font-size: 20px;
+    font-size: 10;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 50px;
 }
@@ -56,17 +58,19 @@ p{
     font-family: 'Patrick Hand SC', cursive;
     font-size: bold;
     padding: 30px;
+    text-align: justify;
 }
 
 section{
-    max-width: auto;
+    width: auto;
+    min-width: auto;
     font-size: 50px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 40px;
     line-height: 2em;
     background-color: white;
     background-size: cover;
+    padding-left: 50px;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
 }
 
 #joaninha{
@@ -74,7 +78,7 @@ section{
     
     background-color: black;
     background-image: url(imagens/background001.jpg);
-    background-position: left top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -84,8 +88,8 @@ section{
 
     background-color: black;
     background-image: url(imagens/background002.jpg);
-    background-position: left top;
-    background-size: center center;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -98,7 +102,6 @@ div.caixatexto{
 
 footer{
     color: white;
-    text-align: center;
     padding: 0px;
     font-weight: 100;
 }
@@ -107,4 +110,5 @@ footer > p{
     margin-top: 3px;
     margin-bottom: 3px;
     padding: 6px;
+    text-align: center;
 }
