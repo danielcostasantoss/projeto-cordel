@@ -5,61 +5,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 *{
-    width: auto;
+    margin: 0px;
+    padding: 0px;
 }
 
-body{
+html, body{
     background-color: black;
     background-size: cover;
     margin: 0px;
+    min-height: 100vh;
 }
 
-#titulo{
+header{
     text-align: center;
     background-color: black;
     max-width: auto;
     color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
-    margin-top: 70px;
-    margin-bottom: 5px;
-    padding: 0px;
 }
 
-h1{
-    display: block;
-    font-size: 150px;
+header > h1{
+    font-size: 120px;
     font-weight: bold;
     font-family: 'Dela Gothic One', sans-serif;
-    margin: 0px;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
-h2{
+header > h2{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 
 a{
     color: white;
     text-decoration: none;
+    padding: 9px;
 }
 
 a:hover{
     color: white;
     text-decoration: underline;
-    background-color: rgba(255, 255, 255, 0.062);
-    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.329);
+    padding: 9px;
     border-radius: 10px;
 }
+
 p{
     font-family: 'Patrick Hand SC', cursive;
     font-size: bold;
-    text-indent: 15px;
+    padding: 30px;
 }
 
 section{
     max-width: auto;
     font-size: 50px;
-    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    line-height: 2em;
     background-color: white;
     background-size: cover;
 }
@@ -94,12 +99,12 @@ div.caixatexto{
 footer{
     color: white;
     text-align: center;
-    padding: 2px;
+    padding: 0px;
     font-weight: 100;
-    
 }
 
 footer > p{
     margin-top: 3px;
     margin-bottom: 3px;
+    padding: 6px;
 }
